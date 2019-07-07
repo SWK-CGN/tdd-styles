@@ -1,0 +1,6 @@
+package gameoflife
+
+class CandidatesCalculatorTest {
+
+
+}
