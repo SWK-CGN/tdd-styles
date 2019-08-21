@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm").version("1.3.40")
+    id("org.jetbrains.kotlin.jvm").version("1.3.41")
 }
 
 repositories {
@@ -10,7 +10,7 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 
-val junitVersion by extra("5.4.2")
+val junitVersion by extra("5.5.1")
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
